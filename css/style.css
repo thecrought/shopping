@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 34px;
+}
+
+h4 {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #414141;
+  padding: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #101010;
+    display: block;
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container span {
+    font-weight: 800;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li:hover{
+  transition-duration: 0.4s;
+  color: #CEBD96;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.image p {
+    text-align: center;
+    font-size: 35;
+    margin-top: 5%;
+}
+
+.intro {
+    font-family: 'Roboto', sans-serif;  
+    font-size: 3em;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-left: 7%;
+  }
+
+.image {
+      margin-left: 7%;
+      float: left;
+  }
+
+.button {
+    background-color: #2c2c2c;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+.button:hover {
+    transition-duration: 0.4s;
+    color: #CEBD96;
+  }
+
+.buy {
+    float: left;
+    padding-top: 11%;
+    padding-left: 10%;
+}
+
+.shop {
+    padding-top: 13%;
+    padding-right: 20%;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 30px;
+    color: #414141;
+  }
+
+.rooms {
+    font-family: 'Roboto', sans-serif;  
+    font-size: 3em;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-left: 7%;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-top: 50px;
+    color: red;
+}
+
+.logo_container p {
+  color: #CEBD96;
+}
+
+/* START STORE CSS*/
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 50px;
+    justify-content: space-between;
+    
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 320px;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 20px;
+  }
+
+  .card .card-img {
+      width: 290px;
+      height: 290px;
+  }
+
+  .productinfo {
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+  
+  .price {
+    color: #363636;
+    font-size: 22px;
+    padding-top: 5px;
+  }
+
+  .price a {
+    color: black;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #242424;
+    background-color: #f1f0f0;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.5;
+  }
+
+#viewproduct {
+  background-color: #313131;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+#viewproduct a {
+  color: white;
+}
+/* END STORE CSS*/
+
+/*  START CONTACT CSS*/
+
+.contactheading {
+  font-family: sans-serif;
+  color: #303030;
+  margin-left: 25%;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.articletext {
+  width: 50%;
+  margin-left: 7%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.articletext p {
+  margin-left: 1%;
+  font-size: 20px;
+}
+
+.articletext h3 {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+  }
+  
+input[type=submit] {
+    font-size: 16px;
+    background-color: #2c2c2c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+input[type=submit]:hover {
+    background-color: #000000;
+  }
+  
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+
+
+/* END CONTACT CSS*/
+
+
+/* START PRODUCT PAGE INFO */
+
+table, th, td {
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+}
+
+.cart img {
+  width: 100px;
+  height: 100px;
+}
+
+
+/* END PRODUCT PAGE INFO */
+
+.nextorder {
+  background-color: #2c2c2c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.link {
+  background-color: #2c2c2c;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonnext {
+  padding-top: 10px;
+}
+
+.product {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid black;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  border: 1px solid black;
+}
+
+.product h4{
+  font-size: 25px;
+  float: left;
+  margin-top: 40px;
+  border: 1px solid black;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+  margin-top: 100px;
+}
+
+.section img {
+  width: 400px;
+  height: 400px;
+}
+
+.paragraph {
+  color: #555;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: #222;
+  line-height: 24px;
+}
+
+
+.section ul {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.section li {
+  width: 500px;
+  margin-top: 20px;
+  list-style-type: circle;
+  margin-left: 10px;
+}
+
+#lightcolor:hover {
+  color: #CEBD96;
+  transition-duration: 0.4s;
+}
+
+.button .nextorder:hover {
+ color: #CEBD96;
+}
+
+.fas {
+  padding-right: 5px;
+}
+
+.titletext {
+  background-color: #CEBD96;
+}
+
+.text-total {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.basketheader {
+  margin: 50px;
+  background-color: red;
+}
+
+/* START CHECKOUT FORM CSS */
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 50%;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+@media only screen and (max-width: 1024px) {
+  .inner_header {
+    background-color:  #101010;
+  }
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+.namespace{
+  margin-top: 15px;
+}
